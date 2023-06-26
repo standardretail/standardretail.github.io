@@ -1,6 +1,7 @@
 html {
   background: #fff;
 }
+html.policy {background-color: #fafafa;}
 
 body {
 	background: #fafafa;
@@ -28,6 +29,9 @@ h5 { font-size: 1.2em;}
 
 a {color:rgb(255, 255, 255);}
 a:hover {color:rgb(255, 255, 255);text-decoration:underline;}
+
+.policy a {color: #333;}
+.policy a:hover {color:#333;text-decoration:underline;}
 
 p {
 	font-feature-settings: "liga";
@@ -232,6 +236,10 @@ p {
     max-width: 500px;
     padding: 40px;
   }
+  .policy .sr-note {
+    max-width: 470px;
+    padding: 40px;
+  }
 
   .background-wrapper {
     min-height: 900px;
@@ -251,6 +259,10 @@ p {
     max-width: 470px;
     padding: 40px;
   }
+  .policy .sr-note {
+    max-width: 870px;
+    padding: 40px;
+  }
 
 }
 
@@ -258,4 +270,3 @@ p {
   right: 6px;
   left: 6px;
 }
-
